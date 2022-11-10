@@ -1,0 +1,39 @@
+.userContainer {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+    border-bottom: 2px black solid;
+}
+
+.userIcon {
+    font-size: 5rem;
+    margin-right: 15px;
+}
+
+.userName {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.verified {
+    margin-bottom: 10px;
+}
+
+.userVerified, .userStar {
+    margin-right: 10px;
+}
+
+/* XS devices styles */
+@media screen and (max-width: 374px) {
+    .userName {
+        font-size: 1.2rem;
+    }
+
+    span {
+        font-size: 0.9rem;
+    }
+}
